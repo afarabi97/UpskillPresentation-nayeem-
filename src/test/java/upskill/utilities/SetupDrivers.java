@@ -26,6 +26,7 @@ public class SetupDrivers {
 //		options.addArguments("--headless");					//headless execution
 		driver = new ChromeDriver(options);					//initializing chrome driver
 		driver.get("https://www.homedepot.com/auth/view/signin");//loading the page
+		driver.get("https://www.homedepot.com/");
 	
 	
 	}
