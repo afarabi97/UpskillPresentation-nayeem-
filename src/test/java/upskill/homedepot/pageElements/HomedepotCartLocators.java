@@ -4,7 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class HomedepotCartLocators {
-	@FindBy(xpath="//div[normalize-space()='Today']")
+	@FindBy(xpath="//div[contains(text(),'Store Pickup')]")
 	public WebElement ship;
 	
 	@FindBy(xpath="//button[normalize-space()='+']")
